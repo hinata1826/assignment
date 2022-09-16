@@ -22,7 +22,7 @@ public class Category extends Vehicle implements NewInterface {
 
     String category;
     int categoryid;
-    final int finalfield = 1;
+    //final int finalfield = 1;
     int x, y;
 
 
@@ -77,7 +77,7 @@ public class Category extends Vehicle implements NewInterface {
         else
             this.x = x - 1;
 
-        System.out.println("X and Y are different");
+        System.out.println("X and Y are different!!!");
         return false;
     }
 
